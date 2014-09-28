@@ -1,0 +1,9 @@
+[Behavior]
+chatWindowGroupPolicy=GroupByAccount
+initialStatus=Online
+
+[ContactList]
+contactListIconMode=IconPhoto
+
+[Plugins]
+kopete_message_indicatorEnabled=true

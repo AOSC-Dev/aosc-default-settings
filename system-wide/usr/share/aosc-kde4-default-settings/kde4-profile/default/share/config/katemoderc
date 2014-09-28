@@ -1,0 +1,9 @@
+[PBuilder]
+Highlighting=Bash
+Highlighting Generated=true
+Highlighting Version=
+Mimetypes=
+Priority=0
+Section=Configuration
+Variables=kate:\s
+Wildcards=*pbuilderrc*;
