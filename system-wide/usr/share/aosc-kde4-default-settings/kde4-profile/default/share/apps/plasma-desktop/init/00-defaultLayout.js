@@ -38,6 +38,7 @@ launcher.globalShortcut = "Alt+F1"
 panel.addWidget("org.kde.showActivityManager");
 panel.addWidget("tasks");
 panel.addWidget("showdesktop");
+panel.addWidget("kimpanel");
 
 systray = panel.addWidget("systemtray");
 i = 0;
