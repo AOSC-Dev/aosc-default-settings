@@ -1,0 +1,22 @@
+[org.mate.background]
+picture-filename='/usr/share/backgrounds/mate/nature/RainDrops.jpg'
+
+[org.mate.interface]
+icon-theme='Numix'
+gtk-theme='Numix'
+font-name='Sans 10'
+document-font-name='Sans 10'
+monospace-font-name='Sans Mono 11'
+
+[org.mate.Marco.general]
+theme='Numix'
+titlebar-font='Sans Bold 10'
+
+[org.mate.Marco.general]
+compositing-manager=true
+center-new-windows=true
+side-by-side-tiling=true
+
+[org.mate.eom.full-screen]
+random=true
+
