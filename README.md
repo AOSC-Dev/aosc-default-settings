@@ -3,6 +3,6 @@ AOSC_Default_Settings
 
 Default Settings in Overrides, for AOSC OS
 
-MATE
+Cinnamon
 =====================
-Default settings for MATE Desktop Environment.
+Default settings for Cinnamon Desktop Environment.
