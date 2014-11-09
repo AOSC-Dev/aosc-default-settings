@@ -1,0 +1,14 @@
+[org.cinnamon.desktop.background]
+picture-uri='file:///usr/share/backgrounds/gnome/Chmiri.jpg'
+
+[org.cinnamon.desktop.interface]
+cursor-theme='Adwaita'
+clock-show-date=true
+gtk-theme='Numix'
+icon-theme='Numix'
+
+[org.cinnamon.desktop.wm.preferences]
+theme='Numix'
+
+[org.cinnamon.theme]
+name='Numix-Cinnamon'
