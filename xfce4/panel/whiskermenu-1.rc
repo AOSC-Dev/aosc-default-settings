@@ -1,5 +1,4 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
-recent=exo-terminal-emulator.desktop,gpk-update-viewer.desktop,versionhelper.desktop,exo-web-browser.desktop,xfce4-about.desktop,exo-file-manager.desktop,exo-mail-reader.desktop
 button-title=
 button-icon=xfce4-whiskermenu
 button-single-row=true
