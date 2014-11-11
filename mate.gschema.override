@@ -5,6 +5,9 @@ picture-filename='/usr/share/backgrounds/mate/nature/RainDrops.jpg'
 icon-theme='Numix'
 gtk-theme='Numix'
 
+[org.mate.peripherals-mouse]
+cursor-theme='Adwaita'
+
 [org.mate.Marco.general]
 theme='Numix'
 titlebar-font='Sans Bold 10'
