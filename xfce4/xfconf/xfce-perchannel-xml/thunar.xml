@@ -9,5 +9,5 @@
   <property name="misc-text-beside-icons" type="bool" value="true"/>
   <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_SMALLEST"/>
   <property name="misc-middle-click-in-tab" type="bool" value="false"/>
-  <property name="last-show-hidden" type="bool" value="true"/>
+  <property name="last-show-hidden" type="bool" value="false"/>
 </channel>
