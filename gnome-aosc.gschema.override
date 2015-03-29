@@ -1,3 +1,6 @@
 [org.gnome.desktop.interface]
 gtk-theme='Adwaita'
 icon-theme='Adwaita'
+
+[org.gnome.shell]
+favorite-apps=['firefox.desktop', 'evolution.desktop', 'rhythmbox.desktop', 'org.gnome.Nautilus.desktop', 'eog.desktop', 'org.gnome.gedit.desktop']
