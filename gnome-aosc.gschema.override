@@ -4,3 +4,8 @@ icon-theme='Adwaita'
 
 [org.gnome.shell]
 favorite-apps=['firefox.desktop', 'evolution.desktop', 'org.gnome.Nautilus.desktop', 'rhythmbox.desktop', 'eog.desktop', 'org.gnome.gedit.desktop']
+
+[org.gnome.Terminal.Legacy.Settings]
+dark-theme='true'
+default-show-menubar='false'
+new-terminal-mode='tab'
