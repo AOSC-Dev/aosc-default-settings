@@ -2,7 +2,7 @@
 picture-filename='/usr/share/backgrounds/mate/nature/Wood.jpg'
 
 [org.mate.interface]
-icon-theme='Vertex-Icons'
+icon-theme='vertex'
 gtk-theme='Arc-Darker'
 
 [org.mate.peripherals-mouse]
@@ -23,9 +23,8 @@ random=true
 [org.mate.NotificationDaemon]
 theme='coco'
 
+[org.mate.panel]
+default-layout='aosc'
+
 [org.mate.panel.menubar]
 show-icon=false
-
-[org.mate.panel.toplevels.bottom]
-enable-arrows=true
-enable-buttons=true
