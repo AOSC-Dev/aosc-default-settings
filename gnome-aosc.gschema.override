@@ -1,2 +1,5 @@
 [org.gnome.desktop.interface]
-icon-theme='Arc-Darker'
+gtk-theme='Arc-Darker'
+
+[org.gnome.shell]
+favorite-apps=['firefox.desktop', 'geary.desktop', 'org.gnome.Nautilus.desktop', 'rhythmbox.desktop', 'eog.desktop', 'org.gnome.gedit.desktop']
