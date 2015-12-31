@@ -1,15 +1,16 @@
-AOSC_Default_Settings
+aosc-default-settings
 =====================
 
-Default Settings in Overrides, for AOSC OS
+Default Settings in Overrides, for AOSC OS.
 
 Xfce
 =====================
 Xfce has some major appearance and functionality customization (just kidding...), including:
 
-1. Default theme to Numix;
-2. Whisker Menu instead of the default one;
-3. Light Locker instead of XScreensaver;
-4. Polkit GNOME as default agent for PolicyKit;
-5. Changed panel preferences;
-6. Added a splash screen;
+1. Default theme to Arc;
+2. Default icon theme to Numix Circles;
+3. Whisker Menu instead of the default one;
+4. Light Locker instead of XScreensaver;
+5. Polkit GNOME as default agent for PolicyKit;
+7. Changed panel preferences;
+7. Added a splash screen;
