@@ -3,7 +3,7 @@ picture-filename='/usr/share/backgrounds/core4/core4-timed.xml'
 picture-options='scaled'
 
 [org.mate.interface]
-icon-theme='vertex'
+icon-theme='Numix'
 gtk-theme='Arc-Darker'
 
 [org.mate.peripherals-mouse]
