@@ -1,5 +1,14 @@
 [org.gnome.desktop.interface]
-gtk-theme='Arc-Darker'
+gtk-theme = 'Arc-Darker'
+
+[org.gnome.desktop.background]
+picture-uri = 'file:///usr/share/backgrounds/core4/core4-timed.xml'
+
+[org.gnome.desktop.screensaver]
+picture-uri = 'file:///usr/share/backgrounds/core4/core4-plain-timed.xml'
 
 [org.gnome.shell]
-favorite-apps=['firefox.desktop', 'geary.desktop', 'org.gnome.Nautilus.desktop', 'rhythmbox.desktop', 'eog.desktop', 'org.gnome.gedit.desktop']
+favorite-apps = ['firefox.desktop', 'geary.desktop', 'org.gnome.Nautilus.desktop', 'lollypop.desktop', 'eog.desktop', 'org.gnome.gedit.desktop']
+
+[org.gnome.desktop.peripherals.touchpad]
+tap-to-click = true
