@@ -1,5 +1,6 @@
 [org.mate.background]
-picture-filename='/usr/share/backgrounds/mate/nature/Wood.jpg'
+picture-filename='/usr/share/backgrounds/core4/core4-timed.xml'
+picture-options='scaled'
 
 [org.mate.interface]
 icon-theme='vertex'
