@@ -1,5 +1,6 @@
 [org.gnome.desktop.interface]
 gtk-theme = 'Arc-Darker'
+icon-theme = 'Flat-Remix'
 
 [org.gnome.desktop.background]
 picture-uri = 'file:///usr/share/backgrounds/core4/core4-timed.xml'
