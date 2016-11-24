@@ -1,31 +1,31 @@
 [org.mate.background]
-picture-filename='/usr/share/backgrounds/core4/core4-timed.xml'
-picture-options='scaled'
+picture-filename = '/usr/share/backgrounds/core4/core4-timed.xml'
+picture-options = 'scaled'
 
 [org.mate.interface]
-icon-theme='Numix'
-gtk-theme='Arc-Darker'
+icon-theme = 'Flat-Remix'
+gtk-theme = 'Arc-Darker'
 
 [org.mate.peripherals-mouse]
-cursor-theme='Adwaita'
+cursor-theme = 'Adwaita'
 
 [org.mate.Marco.general]
-theme='Arc-Darker'
-titlebar-font='Sans Bold 10'
+theme = 'Arc-Darker'
+titlebar-font = 'Sans Bold 10'
 
 [org.mate.Marco.general]
-compositing-manager=true
-center-new-windows=true
-side-by-side-tiling=true
+compositing-manager = true
+center-new-windows = true
+side-by-side-tiling = true
 
 [org.mate.eom.full-screen]
-random=true
+random = true
 
 [org.mate.NotificationDaemon]
-theme='coco'
+theme = 'coco'
 
 [org.mate.panel]
-default-layout='aosc'
+default-layout = 'aosc'
 
 [org.mate.panel.menubar]
-show-icon=false
+show-icon = false
