@@ -1,14 +1,14 @@
 [org.cinnamon.desktop.background]
-picture-uri='file:///usr/share/backgrounds/gnome/Chmiri.jpg'
+picture-uri = '/org/cinnamon/desktop/background/picture-uri'
 
 [org.cinnamon.desktop.interface]
-cursor-theme='Adwaita'
-clock-show-date=true
-gtk-theme='Numix'
-icon-theme='Numix'
-
-[org.cinnamon.desktop.wm.preferences]
-theme='Numix'
+gtk-theme = 'Arc-Darker'
+icon-theme = 'Flat-Remix'
 
 [org.cinnamon.theme]
-name='Numix-Cinnamon'
+name = 'Arc'
+
+[org.cinnamon.desktop.session]
+settings-daemon-uses-logind = 'true'
+session-manager-uses-logind = 'true'
+screensaver-uses-logind = 'true'
