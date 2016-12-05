@@ -1,14 +1,17 @@
 [org.cinnamon.desktop.background]
-picture-uri = '/org/cinnamon/desktop/background/picture-uri'
+picture-uri = 'file:///usr/share/backgrounds/core4/core4-timed.xml'
 
 [org.cinnamon.desktop.interface]
 gtk-theme = 'Arc-Darker'
 icon-theme = 'Flat-Remix'
 
+[org.cinnamon.desktop.wm.preferences]
+theme = 'Arc-Darker'
+
 [org.cinnamon.theme]
 name = 'Arc'
 
 [org.cinnamon.desktop.session]
-settings-daemon-uses-logind = 'true'
-session-manager-uses-logind = 'true'
-screensaver-uses-logind = 'true'
+settings-daemon-uses-logind = true
+session-manager-uses-logind = true
+screensaver-uses-logind = true
