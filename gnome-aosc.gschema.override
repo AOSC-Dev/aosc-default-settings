@@ -10,7 +10,7 @@ picture-uri = 'file:///usr/share/backgrounds/core4/core4-plain-timed.xml'
 
 [org.gnome.shell]
 favorite-apps = ['firefox.desktop', 'geary.desktop', 'org.gnome.Nautilus.desktop', 'lollypop.desktop', 'eog.desktop', 'org.gnome.gedit.desktop']
-enabled-extensions = 'user-theme@gnome-shell-extensions.gcampax.github.com'
+enabled-extensions = ['user-theme@gnome-shell-extensions.gcampax.github.com']
 
 [org.gnome.shell.extensions.user-theme]
 name = 'Arc-Dark'
