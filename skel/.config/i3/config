@@ -58,7 +58,7 @@ bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness 
 # Start Applications
 bindsym $mod+Ctrl+b exec --no-startup-id terminal -e 'bmenu'
 bindsym $mod+F2 exec --no-startup-id firefox
-bindsym $mod+F3 exec --no-startup-id nautilus
+bindsym $mod+F3 exec --no-startup-id pcmanfm
 # bindsym $mod+F3 exec ranger
 # bindsym $mod+Shift+F3 exec gksu nautilus
 bindsym $mod+F5 exec terminator -e 'htop'
@@ -271,11 +271,12 @@ exec --no-startup-id nitrogen --restore; sleep 1; compton -b
 exec --no-startup-id nm-applet
 
 #exec --no-startup-id conky -c ~/.config/conky/conky_cherubim
-exec --no-startup-id conky -c ~/.config/conky/conky_i3shortcuts
-exec --no-startup-id conky -c ~/.config/conky/conky_weather
-exec --no-startup-id conky -c ~/.config/conky/conky_rss
-exec --no-startup-id conky -c ~/.config/conky/conky_status
+#exec --no-startup-id conky -c ~/.config/conky/conky_i3shortcuts
+#exec --no-startup-id conky -c ~/.config/conky/conky_weather
+#exec --no-startup-id conky -c ~/.config/conky/conky_rss
+#exec --no-startup-id conky -c ~/.config/conky/conky_status
 #exec --no-startup-id conky -c ~/.config/conky/conky_webmonitor
+exec --no-startup-id ~/.config/conky/auto-conky.py
 
 # exec --no-startup-id blueman
 # exec_always --no-startup-id sbxkb

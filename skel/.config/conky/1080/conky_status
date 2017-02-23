@@ -57,7 +57,6 @@ ${color #588078}${downspeedgraph wlp3s0 32,170 104E8B 588078} $alignr${color #58
 ${color #588078}File systems:
  ${color #588078}/          $color${fs_used /}/${fs_size /}${alignr}${color #588078}${fs_bar 5,155 /}
 # ${color #588078}/home      $color${fs_used /home}/${fs_size /home}${alignr}${color #588078}${fs_bar 5,155 /home}
- ${color #588078}/mnt/zorin $color${fs_used /mnt/zorin}/${fs_size /mnt/zorin}${alignr}${color #588078}${fs_bar 5,155 /mnt/zorin}
  ${color #588078}/tmp       $color${fs_used /tmp}/${fs_size /tmp}${alignr}${color #588078}${fs_bar 5,155 /tmp}
 # ${color #588078}/boot/efi  $color${fs_used /boot/efi}/${fs_size /boot/efi}${alignr}${color #588077}${fs_bar 5,155 /boot/efi}
 

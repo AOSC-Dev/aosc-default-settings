@@ -36,4 +36,4 @@ xftfont  Bitstream Vera Sans Mono:size=10
 
 TEXT
 ${color #588078}AOSC Latest News:
-${color}${execi 60 ~/.config/conky/conky-rss.sh https://gplusrss.com/rss/feed/fb2f0b2caacbe51cb9d4fdb5a0ab1f9f58a0865fcedfe 5 1}
+${color}${execi 60 ~/.config/conky/conky-rss.sh https://aosc.io/feed.rss 5 1}
