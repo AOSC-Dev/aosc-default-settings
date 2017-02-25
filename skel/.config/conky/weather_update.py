@@ -32,8 +32,8 @@ now = datetime.now()
 ######################
 #  Changeable stuff  #
 ######################
-yourAPIID = "2ff7748866bc863f774d4d78ed56b62c"
-yourCITYID = "5261457"
+yourAPIID = ""
+yourCITYID = "1816670"
 yourUNITS = "metric"
 
 update = now - relativedelta(minutes=+30)
