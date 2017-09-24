@@ -3,10 +3,10 @@ gtk-theme = 'Arc-Darker'
 icon-theme = 'Flat-Remix'
 
 [org.gnome.desktop.background]
-picture-uri = 'file:///usr/share/backgrounds/core4/core4-timed.xml'
+picture-uri = 'file:///usr/share/backgrounds/core5/core5-b-wallpapers.xml'
 
 [org.gnome.desktop.screensaver]
-picture-uri = 'file:///usr/share/backgrounds/core4/core4-plain-timed.xml'
+picture-uri = 'file:///usr/share/backgrounds/core5/core5-plain-wallpapers.xml'
 
 [org.gnome.shell]
 favorite-apps = ['firefox.desktop', 'geary.desktop', 'org.gnome.Nautilus.desktop', 'lollypop.desktop', 'eog.desktop', 'org.gnome.gedit.desktop']
