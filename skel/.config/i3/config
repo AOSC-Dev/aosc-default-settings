@@ -271,6 +271,7 @@ bindsym $mod+9 exec --no-startup-id i3lock -c 000000
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
 exec --no-startup-id nm-applet
+exec --no-startup-id xdg-user-dirs-update
 
 #exec --no-startup-id conky -c ~/.config/conky/conky_cherubim
 #exec --no-startup-id conky -c ~/.config/conky/conky_i3shortcuts
