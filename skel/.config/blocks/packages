@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+URGENT_VALUE=10
+PACKAGE_COUNT=$(apt list --upgradable | expr $(wc -l) - 1)
+
+if [[ "${PACKAGE_COUNT}" -gt 0 ]]; then
+  echo "${PACKAGE_COUNT}" # full-text
+  echo "${PACKAGE_COUNT}" # short-text
+  echo ""
+  if [[ "${PACKAGE_COUNT}" -gt "${URGENT_VALUE}" ]]; then
+    exit 33
+  fi
+fi
