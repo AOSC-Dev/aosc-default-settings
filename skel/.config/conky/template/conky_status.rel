@@ -11,8 +11,8 @@ draw_graph_borders yes
 draw_outline no
 draw_shades no
 gap_x 45
-gap_y 30
-maximum_width 350
+gap_y 40
+maximum_width {{400}}
 max_port_monitor_connections 64
 max_specials 512
 max_user_text 16384
@@ -32,20 +32,17 @@ uppercase no
 use_spacer yes
 use_xft yes
 xftalpha 0.8
-xftfont  Bitstream Vera Sans Mono:size=9
+xftfont  Noto Sans:size={{8}}
 
 TEXT
-${voffset 8}$color2${font Bitstream Vera Sans:size=16}${time %A}$font\
-${voffset -20}$alignr${offset -30}$color${font Bitstream Vera Sans:size=50}${time %e}$font
-$color${voffset -45}$color${font Bitstream Vera Sans:size=46}${time %b}$font\
-${voffset -15} ${offset 20} $color${font Bitstream Vera Sans:size=20}${time %Y}$font$color2$hr
+${voffset 10}${color #dddddd}${font Noto Sans:pixelsize={{85}}}${time %H:%M}${font}${voffset -85}${offset 20}$color${font Noto Sans:pixelsize=42}${time %d}${voffset 0}${color #dddddd}${font Noto Sans:pixelsize=22} ${time %B} ${time %Y}${font}${voffset 32}${font Noto Sans:pixelsize={{40}}}${offset -200}${time %A}${font}
 
-${font Bitstream Vera Sans:size=15}${execi 300 cat /etc/lsb-release | grep 'DISTRIB_DESCRIPTION' | cut -f2 -d'=' | sed -e 's|\"||g'} \
+${font Noto Sans:size=15}${execi 300 cat /etc/lsb-release | grep 'DISTRIB_DESCRIPTION' | cut -f2 -d'=' | sed -e 's|\"||g'} \
 ${execi 300 printf "$(cat /etc/lsb-release | grep DISTRIB_RELEASE | cut -f2 -d'=' | sed -e 's|\"||g') $(cat /etc/lsb-release | grep DISTRIB_CODENAME | cut -f2 -d'=' | sed -e 's|\"||g')"}
-${color2}${font Bitstream Vera Sans:size=8}${execi 1200 whoami}@${nodename}${color2}${font Bitstream Vera Sans:size=8}${alignr}kernel: ${color}${kernel}
+${color2}${font Noto Sans:size=8}${execi 1200 whoami}@${nodename}${color2}${font Noto Sans:size=8}${alignr}kernel: ${color}${kernel}
 ${voffset 6}${font}${color #588078}Uptime:$color $uptime ${color #588078} Load:$color $loadavg ${alignr}$color${time %l:%M %p}
-${color #588078}CPU:$color ${cpu}% ${color #588078}${cpubar 5,85}   ${color #588078}Disk I/O: $color${diskio}
-${color #588078}${cpugraph 0 32,170 104E8B 588078} $alignr${color #588078}${diskiograph 32,170 104E8B 588078 750}
+${color #588078}CPU:$color ${cpu}% ${color #588078}${cpubar 5,{{125}}}   ${color #588078}Disk I/O: $color${diskio}
+${color #588078}${cpugraph 0 32,{{190}} 104E8B 588078} $alignr${color #588078}${diskiograph 32,{{190}} 104E8B 588078 750}
 ${color #588078}RAM Usage:$color $mem${color #588078}/${color}$memmax - $memperc% ${color #588078}
 ${membar}
 ${color #588078}Swap Usage:$color $swap${color #588078}/${color}$swapmax - $swapperc% ${color #588078}${swapbar}
@@ -53,7 +50,7 @@ ${color #588078}Procs:$color $processes ${color #588078}Run:$color $running_proc
 0-002d temp 2}${color #588078} MB:$color ${i2c 0-002d temp 1}
 ${color #588078}Entropy: ${color}${entropy_avail}${color #588078}/${color}${entropy_poolsize} ${color #588078}${entropy_bar}
 ${color #588078}Net Down:$color ${downspeed wlp3s0}/s      ${color #588078}Net Up:$color ${upspeed wlp3s0}/s
-${color #588078}${downspeedgraph wlp3s0 32,170 104E8B 588078} $alignr${color #588078}${upspeedgraph wlp3s0 32,170 104E8B 588078}
+${color #588078}${downspeedgraph wlp3s0 32,{{190}} 104E8B 588078} $alignr${color #588078}${upspeedgraph wlp3s0 32,{{190}} 104E8B 588078}
 ${color #588078}File systems:
  ${color #588078}/          $color${fs_used /}/${fs_size /}${alignr}${color #588078}${fs_bar 5,155 /}
 # ${color #588078}/home      $color${fs_used /home}/${fs_size /home}${alignr}${color #588078}${fs_bar 5,155 /home}

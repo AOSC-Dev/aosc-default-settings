@@ -10,13 +10,13 @@ draw_borders no
 draw_graph_borders yes
 draw_outline no
 draw_shades no
-gap_x 45
-gap_y 45
-maximum_width 350
+gap_x 50
+gap_y 40
+maximum_width {{400}}
 max_port_monitor_connections 64
 max_specials 512
 max_user_text 16384
-minimum_size 350 10
+minimum_size 300 10
 net_avg_samples 2
 no_buffers yes
 out_to_console no
@@ -32,11 +32,9 @@ uppercase no
 use_spacer yes
 use_xft yes
 xftalpha 0.8
-xftfont  Bitstream Vera Sans Mono:size=9
+xftfont  Noto Sans:size={{8}}
 
 TEXT
-${font}WEATHER${font} ${hr 2}
-#${catp /tmp/conky_weather_results}
-${execp cat /tmp/conky_weather_results}
-${execi 30 python2 ~/.config/conky/weather_update.py}
-${exec kill -CONT $(pidof conky)}
+${color #588078}AOSC Latest News
+$hr
+${color}${execi 60 ~/.config/conky/conky-rss.sh https://aosc.io/feed.rss 5 1}

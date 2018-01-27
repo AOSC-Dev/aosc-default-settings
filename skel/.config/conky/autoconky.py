@@ -7,7 +7,7 @@ import re
 from string import Template
 
 conkyScripts = [
-    "conky_rss", "conky_weather", "conky_status", "conky_i3shortcuts"
+    "conky_rss", "conky_status", "conky_i3shortcuts"
 ]
 
 
@@ -69,9 +69,9 @@ def run():
     if need_regenerate():
         print("Regenerating pixel-scaling conky config for " + str(arrResolution[0]) + "x" + str(arrResolution[1]) + " ...")
         if int(arrResolution[1]) < 770:
-            generate(0.7)
+            generate(0.9)
         elif int(arrResolution[1]) >= 1440:
-            generate(1.4)
+            generate(1.3)
         else:
             generate(1.0)
 
