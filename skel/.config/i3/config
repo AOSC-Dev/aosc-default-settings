@@ -8,11 +8,11 @@ set $mod Mod4
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-new_window pixel 1
-new_float normal
+new_window pixel 4
+new_float pixel 4
 
 # Hide borders
-hide_edge_borders none
+hide_edge_borders smart
 
 # change borders
 bindsym $mod+u border none
@@ -54,6 +54,11 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # Screen brightness controls
 bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
 bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
+
+# Audio controls
+bindsym XF86AudioRaiseVolume exec "amixer -c 1 sset 'Master' 5%+"
+bindsym XF86AudioLowerVolume exec "amixer -c 1 sset 'Master' 5%-"
+bindsym XF86AudioMute exec amixer -q set Master toggle
 
 # Start Applications
 bindsym $mod+Ctrl+b exec --no-startup-id terminal -e 'bmenu'
@@ -269,7 +274,7 @@ bindsym $mod+9 exec --no-startup-id i3lock -c 000000
 # Autostart applications
 # exec --no-startup-id /usr/lib/gnome-settings-daemon/gnome-settings-daemon-localeexec
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id nitrogen --restore; sleep 1; compton -b
+exec --no-startup-id nitrogen --restore; sleep 1; compton -cb
 exec --no-startup-id nm-applet
 exec --no-startup-id xdg-user-dirs-update
 
@@ -288,14 +293,18 @@ exec --no-startup-id ~/.config/conky/autoconky.py
 bar {
         status_command i3blocks
         position top
-
+	font pango:Noto Mono 11
+#	strip_workspace_numbers yes
+	separator_symbol "//"
         colors {
-            background #071E31
+            background	#071E31
+	    separator	#7addda
+#	    statusline  #DDDDDD
 
-            focused_workspace #3685e2 #3685e2 #fafafa
-            active_workspace #5294e2 #5294e2 #fafafa
-            inactive_workspace #404552 #404552 #fafafa
-            urgent_workspace #ff5757 #ff5757 #fafafa
+            focused_workspace	#3685e2 #3685e2 #fafafa
+            active_workspace	#5294e2 #5294e2 #fafafa
+            inactive_workspace	#404552 #404552 #fafafa
+            urgent_workspace	#ff5757 #ff5757 #fafafa
         }
 }
 
