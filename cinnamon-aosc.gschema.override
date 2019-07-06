@@ -1,5 +1,5 @@
 [org.cinnamon.desktop.background]
-picture-uri = 'file:///usr/share/backgrounds/core5/core5-b-wallpapers.xml'
+picture-uri = 'file:///usr/share/backgrounds/campanula-alt/campanula-alt.xml'
 
 [org.cinnamon.desktop.interface]
 gtk-theme = 'Arc-Darker'
