@@ -3,7 +3,7 @@ picture-filename = '/usr/share/backgrounds/campanula-alt/campanula-alt.xml'
 picture-options = 'scaled'
 
 [org.mate.interface]
-icon-theme = 'Flat-Remix'
+icon-theme = 'Flat-Remix-Blue'
 gtk-theme = 'Arc-Darker'
 
 [org.mate.peripherals-mouse]
