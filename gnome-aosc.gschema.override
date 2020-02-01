@@ -1,6 +1,6 @@
 [org.gnome.desktop.interface]
 gtk-theme = 'Arc-Darker'
-icon-theme = 'Flat-Remix'
+icon-theme = 'Flat-Remix-Blue'
 
 [org.gnome.desktop.background]
 picture-uri = 'file:///usr/share/backgrounds/campanula-alt/campanula-alt.xml'
