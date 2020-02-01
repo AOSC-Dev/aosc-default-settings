@@ -1,16 +1,10 @@
 aosc-default-settings
 =====================
 
-Default Settings in Overrides, for AOSC OS.
+Default settings for the Plasma Desktop in AOSC OS.
 
-Xfce
-=====================
-Xfce has some major appearance and functionality customization (just kidding...), including:
+Plasma
+======
 
-1. Default theme to Arc;
-2. Default icon theme to Flat Remix;
-3. Whisker Menu instead of the default one;
-4. Light Locker instead of XScreensaver;
-5. Polkit GNOME as default agent for PolicyKit;
-7. Changed panel preferences;
-7. Added a splash screen;
+1. Use Breeze Dark for Plasma, and Breeze for everything else.
+2. Set default wallpaper.
