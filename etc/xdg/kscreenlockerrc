@@ -4,3 +4,6 @@ Timeout=15
 
 [Greeter]
 WallpaperPlugin=org.kde.image
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/campanula-wireframe/contents/images/1920x1080.png
