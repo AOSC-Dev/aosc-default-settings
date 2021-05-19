@@ -4,5 +4,5 @@ XftHintStyle=hintslight
 XftSubPixel=rgb
 
 [KDE]
-LookAndFeelPackage=org.kde.breezetwilight
+LookAndFeelPackage=io.aosc.desktop
 SingleClick=false

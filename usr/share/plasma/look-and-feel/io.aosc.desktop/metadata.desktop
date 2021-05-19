@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment=AOSC OS Default Visual Style
+Comment[zh_CN]=AOSC OS 默认视觉效果
+Name=AOSC OS
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=Anthon Open Source Community
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Email=discussion@lists.aosc.io
+X-KDE-PluginInfo-License=GPL-2.0+
+X-KDE-PluginInfo-Name=org.aosc.desktop
+X-KDE-PluginInfo-Version=2.0
+X-KDE-PluginInfo-Website=https://aosc.io
+X-Plasma-MainScript=defaults
+X-KDE-PluginInfo-License=GPLv2+

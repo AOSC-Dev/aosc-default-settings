@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "discussions@lists.aosc.io",
+                "Name": "Anthon Open Source Community"
+            }
+        ],
+        "Category": "",
+        "Description": "AOSC OS Default Visual Style",
+        "Description[zh_CN]": "AOSC OS 默认视觉效果",
+        "Id": "io.aosc.desktop",
+        "License": "GPLv2+",
+        "Name": "AOSC OS",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "2.0",
+        "Website": "https://aosc.io"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-MainScript": "defaults"
+}
