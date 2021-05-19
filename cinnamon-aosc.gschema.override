@@ -1,5 +1,5 @@
 [org.cinnamon.desktop.background]
-picture-uri = 'file:///usr/share/backgrounds/campanula-alt/campanula-alt.xml'
+picture-uri = 'file:///usr/share/backgrounds/community-2020--cth451--HarmonyTrafficLight/community-2020--cth451--HarmonyTrafficLight.jpg'
 
 [org.cinnamon.desktop.interface]
 gtk-theme = 'Arc-Darker'
