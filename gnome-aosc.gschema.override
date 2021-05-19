@@ -3,7 +3,7 @@ gtk-theme = 'Arc-Darker'
 icon-theme = 'Flat-Remix-Blue'
 
 [org.gnome.desktop.background]
-picture-uri = 'file:///usr/share/backgrounds/campanula-alt/campanula-alt.xml'
+picture-uri = 'file:///usr/share/backgrounds/community-2020--cth451--HarmonyTrafficLight/community-2020--cth451--HarmonyTrafficLight.jpg'
 
 [org.gnome.desktop.screensaver]
 picture-uri = 'file:///usr/share/backgrounds/campanula-wireframe/campanula-wireframe.xml'
