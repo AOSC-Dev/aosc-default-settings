@@ -1,6 +1,6 @@
 [org.mate.background]
 picture-filename = '/usr/share/backgrounds/community-2020--cth451--HarmonyTrafficLight/community-2020--cth451--HarmonyTrafficLight.jpg'
-picture-options = 'scaled'
+picture-options = 'zoom'
 
 [org.mate.interface]
 icon-theme = 'Flat-Remix-Blue'
