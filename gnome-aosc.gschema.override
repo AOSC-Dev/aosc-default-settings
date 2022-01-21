@@ -17,3 +17,6 @@ name = 'Arc-Dark'
 
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click = true
+
+[org.gnome.Terminal.Legacy.Settings]
+theme-variant='dark'
