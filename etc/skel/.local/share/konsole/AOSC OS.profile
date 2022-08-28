@@ -6,3 +6,6 @@ Name=AOSC OS
 Parent=FALLBACK/
 TerminalColumns=80
 TerminalRows=24
+
+[Scrolling]
+HighlightScrolledLines=false
