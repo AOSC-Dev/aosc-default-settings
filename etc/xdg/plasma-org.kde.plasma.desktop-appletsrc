@@ -33,6 +33,9 @@ plugin=org.kde.plasma.kickoff
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
 
+[Containments][2][Applets][3][Shortcuts]
+global=Alt+F1
+
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
