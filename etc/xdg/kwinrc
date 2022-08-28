@@ -2,3 +2,6 @@
 glideEnabled=true
 kwin4_effect_fadingpopupsEnabled=false
 kwin4_effect_scaleEnabled=false
+
+[TabBox]
+LayoutName=compact
