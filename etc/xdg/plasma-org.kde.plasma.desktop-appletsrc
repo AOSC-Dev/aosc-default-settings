@@ -24,6 +24,7 @@ plugin=org.kde.plasma.taskmanager
 
 [Containments][2][Applets][27][Configuration][General]
 launchers=preferred://browser,preferred://filemanager
+maxStripes=1
 
 [Containments][2][Applets][3]
 immutability=1
