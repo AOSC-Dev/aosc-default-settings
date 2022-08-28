@@ -1,0 +1,15 @@
+[Plugins]
+CharacterRunnerEnabled=false
+DictionaryEnabled=false
+PIM Contacts Search RunnerEnabled=false
+PowerDevilEnabled=false
+appstreamEnabled=false
+bookmarksEnabled=false
+calculatorEnabled=false
+katesessionsEnabled=false
+krunner_spellcheckEnabled=false
+kwin-runner-windowsEnabled=false
+org.kde.windowedwidgetsEnabled=false
+plasma-runnners-activitiesEnabled=false
+unitconverterEnabled=false
+webshortcutsEnabled=false
