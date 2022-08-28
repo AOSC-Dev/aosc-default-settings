@@ -28,10 +28,13 @@ maxStripes=1
 
 [Containments][2][Applets][3]
 immutability=1
-plugin=org.kde.plasma.kickoff
+plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
+
+[Containments][2][Applets][3][Configuration][General]
+useExtraRunners=false
 
 [Containments][2][Applets][3][Shortcuts]
 global=Alt+F1
