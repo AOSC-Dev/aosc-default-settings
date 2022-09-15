@@ -34,6 +34,7 @@ plugin=org.kde.plasma.kicker
 PreloadWeight=100
 
 [Containments][2][Applets][3][Configuration][General]
+limitDepth=true
 useExtraRunners=false
 
 [Containments][2][Applets][3][Shortcuts]
