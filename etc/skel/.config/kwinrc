@@ -5,3 +5,6 @@ kwin4_effect_scaleEnabled=false
 
 [TabBox]
 LayoutName=compact
+
+[Effect-windowview]
+BorderActivateAll=9
