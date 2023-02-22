@@ -2,6 +2,7 @@
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
+fixed=Source Code Pro,10,-1,5,50,0,0,0,0,0
 
 [KDE]
 LookAndFeelPackage=io.aosc.desktop
