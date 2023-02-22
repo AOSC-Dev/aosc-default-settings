@@ -1,6 +1,7 @@
 [Plugins]
 glideEnabled=true
 kwin4_effect_fadingpopupsEnabled=false
+kwin4_effect_maximizeEnabled=false
 kwin4_effect_scaleEnabled=false
 
 [TabBox]
