@@ -23,6 +23,7 @@ immutability=1
 plugin=org.kde.plasma.taskmanager
 
 [Containments][2][Applets][27][Configuration][General]
+groupingStrategy=0
 launchers=preferred://browser,preferred://filemanager
 maxStripes=1
 
