@@ -9,3 +9,7 @@ LayoutName=compact
 
 [Effect-windowview]
 BorderActivateAll=9
+
+[org.kde.kdecoration2]
+ButtonsOnRight=IAX
+CloseOnDoubleClickOnMenu=true
