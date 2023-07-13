@@ -1,0 +1,11 @@
+#! /bin/sh
+# kpersonalizerrc General FirstLogin true
+kpersonalizerrc_general_firstlogin="false"
+# ksplashrc KSplash Theme Default
+ksplashrc_ksplash_theme="Unified"
+# kcmrandrrc Display ApplyOnStartup false
+kcmrandrrc_display_applyonstartup="true"
+# kcmfonts General forceFontDPIEnable true
+kcmfonts_general_forcefontdpienable="false"
+# kcmfonts General forceFontDPI 0
+kcmfonts_general_forcefontdpi="96"

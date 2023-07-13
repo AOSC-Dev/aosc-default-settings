@@ -1,0 +1,6 @@
+[General]
+Initial_TZ=0
+RemoteZones=
+
+[System Tray]
+systrayIconWidth=22

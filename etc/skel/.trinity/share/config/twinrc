@@ -1,0 +1,122 @@
+[$Version]
+update_info=twin.upd:trinity.0r1,twin.upd:trinity.2Xinerama,twin3_plugin.upd:trinity.2,twin_focus1.upd:twin_focus1,twin_focus2.upd:twin_focus2
+
+[Desktops]
+Name_1=
+Name_2=
+Name_3=
+Name_4=
+Number=1
+
+[KDEDefault]
+ShowGrabBar=true
+ShowTitleBarStipple=true
+UseGradients=true
+
+[MouseBindings]
+CommandActiveTitlebar1=Raise
+CommandActiveTitlebar2=Lower
+CommandActiveTitlebar3=Operations menu
+CommandAll1=Move
+CommandAll2=Toggle raise and lower
+CommandAll3=Resize
+CommandAllKey=Alt
+CommandAllReverseWheel=false
+CommandAllWheel=Nothing
+CommandInactiveTitlebar1=Activate and raise
+CommandInactiveTitlebar2=Activate and lower
+CommandInactiveTitlebar3=Operations menu
+CommandTitlebarReverseWheel=false
+CommandTitlebarWheel=Nothing
+CommandWindow1=Activate, raise and pass click
+CommandWindow2=Activate and pass click
+CommandWindow3=Activate and pass click
+
+[Notification Messages]
+UseTranslucency=false
+
+[PopupInfo]
+ShowPopup=false
+
+[Style]
+BorderSize=0
+ButtonsOnLeft=M
+ButtonsOnRight=IAX
+CustomButtonPositions=true
+InactiveShadowColour=0,0,0
+InactiveShadowEnabled=false
+InactiveShadowOpacity=0.7
+InactiveShadowThickness=5
+InactiveShadowXOffset=0
+InactiveShadowYOffset=5
+PluginLib=twin3_plastik
+ShadowColour=0,0,0
+ShadowDocks=false
+ShadowEnabled=false
+ShadowOpacity=0.7
+ShadowOverrides=false
+ShadowThickness=10
+ShadowTopMenus=false
+ShadowXOffset=0
+ShadowYOffset=10
+ShowToolTips=true
+
+[TabBox]
+TraverseAll=false
+
+[ThirdPartyWM]
+WMAdditionalArguments=
+WMExecutable=twin
+
+[Translucency]
+ActiveWindowOpacity=100
+ActiveWindowShadowSize=200
+DockOpacity=80
+DockShadowSize=0
+InactiveWindowOpacity=75
+InactiveWindowShadowSize=100
+MenuShadowSize=100
+MovingWindowOpacity=25
+OnlyDecoTranslucent=false
+RemoveShadowsOnMove=false
+RemoveShadowsOnResize=false
+ResetKompmgr=false
+TranslucentActiveWindows=false
+TranslucentDocks=false
+TranslucentInactiveWindows=false
+TranslucentMovingWindows=false
+TreatKeepAboveAsActive=true
+
+[Windows]
+ActiveMouseScreen=false
+AltTabStyle=KDE
+AnimateMinimize=true
+AnimateMinimizeSpeed=5
+AnimateShade=true
+AutoRaise=off
+AutoRaiseInterval=750
+BorderSnapZone=10
+ClickRaise=on
+DelayFocus=off
+DelayFocusInterval=750
+ElectricBorderDelay=150
+ElectricBorders=0
+FocusPolicy=ClickToFocus
+FocusStealingPreventionLevel=1
+GeometryTip=false
+HideUtilityWindowsForInactive=true
+IgnoreFocusStealingClasses=tdeio_uiserver
+MaximizeButtonLeftClickCommand=Maximize
+MaximizeButtonMiddleClickCommand=Maximize (vertical only)
+MaximizeButtonRightClickCommand=Maximize (horizontal only)
+MoveMode=Transparent
+MoveResizeMaximizedWindows=false
+Placement=Smart
+ResizeMode=Transparent
+RollOverDesktops=true
+SeparateScreenFocus=false
+ShadeHover=off
+ShadeHoverInterval=250
+SnapOnlyWhenOverlapping=false
+TitlebarDoubleClickCommand=Maximize
+WindowSnapZone=10

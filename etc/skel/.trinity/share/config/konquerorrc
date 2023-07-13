@@ -1,0 +1,64 @@
+[$Version]
+update_info=kfmclient_3_2.upd:kfmclient_3_2
+
+[FMSettings]
+AlwaysNewWin=false
+DisplayFileSizeInBytes=false
+HomeURL[$e]=$HOME
+NormalTextColor=0,0,0
+RenameIconDirectly=false
+ShowFileTips=true
+ShowPreviewsInFileTips=true
+StandardFont=Sans Serif,10,-1,5,50,0,0,0,0,0
+TextHeight=2
+TextWidth=600
+UnderlineLinks=false
+
+[HTML Settings]
+AutomaticDetectionLanguage=0
+
+[HistorySettings]
+OpenGroups=
+
+[KonqMainWindow Toolbar Speech Toolbar]
+IconText=IconOnly
+Index=4
+
+[KonqMainWindow Toolbar bookmarkToolBar]
+Hidden=true
+IconText=IconTextRight
+Index=3
+
+[KonqMainWindow Toolbar extraToolBar]
+IconText=IconOnly
+Index=0
+
+[KonqMainWindow Toolbar locationToolBar]
+IconText=IconOnly
+Index=2
+
+[KonqMainWindow Toolbar mainToolBar]
+Index=1
+
+[KonqMainWindow_Size]
+Height 600=480
+Height 768=311
+Width 1024=504
+Width 800=700
+
+[ListView_file]
+ColumnWidths=108,108,108,101,108,72,82
+
+[MainView Settings]
+ToggableViewsShown=konq_sidebartng
+
+[ModeToolBarServices]
+external=konq_multicolumnview
+
+[Settings]
+BgColor=255,255,255
+BgImage[$e]=
+
+[Trash]
+ConfirmDelete=true
+ConfirmTrash=true

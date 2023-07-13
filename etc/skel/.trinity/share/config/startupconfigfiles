@@ -1,0 +1,44 @@
+kcminputrc Mouse cursorTheme ''
+/home/test/.trinity/share/config/kcminputrc
+!/usr/share/config/kcminputrc
+*
+kcminputrc Mouse cursorSize ''
+/home/test/.trinity/share/config/kcminputrc
+!/usr/share/config/kcminputrc
+*
+kpersonalizerrc General FirstLogin true
+/home/test/.trinity/share/config/kpersonalizerrc
+!/usr/share/config/kpersonalizerrc
+*
+ksplashrc KSplash Theme Default
+/home/test/.trinity/share/config/ksplashrc
+!/usr/share/config/ksplashrc
+*
+kcmrandrrc Display ApplyOnStartup false
+/home/test/.trinity/share/config/kcmrandrrc
+!/usr/share/config/kcmrandrrc
+*
+kcmrandrrc [Screen0]
+/home/test/.trinity/share/config/kcmrandrrc
+!/usr/share/config/kcmrandrrc
+*
+kcmrandrrc [Screen1]
+/home/test/.trinity/share/config/kcmrandrrc
+!/usr/share/config/kcmrandrrc
+*
+kcmrandrrc [Screen2]
+/home/test/.trinity/share/config/kcmrandrrc
+!/usr/share/config/kcmrandrrc
+*
+kcmrandrrc [Screen3]
+/home/test/.trinity/share/config/kcmrandrrc
+!/usr/share/config/kcmrandrrc
+*
+kcmfonts General forceFontDPIEnable true
+/home/test/.trinity/share/config/kcmfonts
+!/usr/share/config/kcmfonts
+*
+kcmfonts General forceFontDPI 0
+/home/test/.trinity/share/config/kcmfonts
+!/usr/share/config/kcmfonts
+*
