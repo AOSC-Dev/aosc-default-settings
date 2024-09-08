@@ -4,10 +4,15 @@ Window Quick Tile Bottom=none,,
 Window Quick Tile Top=none,,
 
 [org.kde.krunner.desktop]
+_k_friendly_name=KRunner
 _launch=Alt+F2\tMeta+R\tSearch\tAlt+Space,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [org.kde.konsole.desktop]
 NewTab=none,none,Open a New Tab
 NewWindow=none,none,Open a New Window
 _k_friendly_name=Konsole
-_launch=Ctrl+Alt+T\tAlt+Shift+T,none,Konsole
+_launch=Alt+Shift+T\tCtrl+Alt+T,none,Konsole
+
+[org.kde.spectacle.desktop]
+_k_friendly_name=Spectacle
+_launch=Meta+Shift+S\tPrint,Print,Launch Spectacle
