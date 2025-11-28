@@ -14,3 +14,6 @@ BorderActivateAll=9
 [org.kde.kdecoration2]
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=true
+
+[Wayland]
+InputMethod[$e]=/usr/share/applications/fcitx5-wayland-launcher.desktop
