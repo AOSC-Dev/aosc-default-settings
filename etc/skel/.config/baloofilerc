@@ -1,2 +1,2 @@
-[General]
-only basic indexing=true
+[Basic Settings]
+Indexing-Enabled=false
