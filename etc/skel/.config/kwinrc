@@ -1,8 +1,13 @@
 [Plugins]
-glideEnabled=true
+fadingpopupsEnabled=false
+fullscreenEnabled=false
 kwin4_effect_fadingpopupsEnabled=false
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_scaleEnabled=false
+maximizeEnabled=false
+slidingpopupsEnabled=false
+squashEnabled=false
+windowapertureEnabled=false
 
 [TabBox]
 LayoutName=compact
