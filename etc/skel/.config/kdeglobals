@@ -1,3 +1,6 @@
+[KDE Action Restrictions]
+ghns=false
+
 [General]
 XftAntialias=true
 XftHintStyle=hintslight
