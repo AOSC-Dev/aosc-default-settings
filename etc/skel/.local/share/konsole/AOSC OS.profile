@@ -1,4 +1,5 @@
 [Appearance]
+ColorScheme=Campbell
 Font=Source Code Pro,12,-1,5,50,0,0,0,0,0
 
 [General]
