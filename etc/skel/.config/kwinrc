@@ -1,4 +1,5 @@
 [Plugins]
+blurEnabled=true
 fadingpopupsEnabled=false
 fullscreenEnabled=false
 kwin4_effect_fadingpopupsEnabled=false
