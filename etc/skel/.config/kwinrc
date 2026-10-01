@@ -14,6 +14,9 @@ windowapertureEnabled=false
 LayoutName=compact
 ShowDesktopMode=1
 
+[Effect-overview]
+BorderActivate=9
+
 [Effect-windowview]
 BorderActivateAll=9
 
